@@ -28,4 +28,4 @@ app.set('port', port);
 
 const server = http.createServer(app);
 
-server.listen(port, () => console.log('Server started on localhost:${port}'));
+server.listen(port, () => console.log('Server started on localhost:' + port));
